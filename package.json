@@ -5,14 +5,14 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
     "test:deriv": "node testDeriv.js"
   },
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
-  "@resvg/resvg-js": "^2.6.2",
-  "ws": "^8.18.3"
+    "@resvg/resvg-js": "^2.6.2",
+    "ws": "^8.18.3"
   }
 }
